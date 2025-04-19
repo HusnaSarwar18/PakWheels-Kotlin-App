@@ -22,8 +22,6 @@ A **modern mobile application** inspired by the popular PakWheels platform. Buil
 | **Kotlin** | Android native development |
 | **Firebase Auth** | User authentication |
 | **Firebase Firestore** | Real-time cloud database |
-| **Firebase Storage** | Store ad images |
-| **MVVM Architecture** | Clean separation of concerns |
 | **Android Jetpack** | ViewModel, LiveData, Navigation |
 
 ---
