@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "697721144794",
+    "project_id": "pakwheels-6023e",
+    "storage_bucket": "pakwheels-6023e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697721144794:android:5ae1b3e02c0dfec66a6ce3",
+        "android_client_info": {
+          "package_name": "com.example.pakwheels"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmy04gJz_SW5bXFSR5tUIUqjaDQOQ0xb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

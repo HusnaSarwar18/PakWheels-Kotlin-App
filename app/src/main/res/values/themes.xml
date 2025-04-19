@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Base.Theme.Pakwheels" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/themeblue</item>
+    </style>
+
+    <!-- Splash Screen theme with a background color -->
+    <style name="SplashTheme" parent="Base.Theme.Pakwheels">
+        <item name="android:windowBackground">@color/themeblue</item> <!-- Set the splash screen background color -->
+    </style>
+
+    <!-- Apply the base theme to the rest of the app -->
+    <style name="Theme.Pakwheels" parent="Base.Theme.Pakwheels" />
+</resources>

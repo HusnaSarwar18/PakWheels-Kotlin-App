@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:fitsSystemWindows="true"
+    tools:context=".Profile"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/profileTitle"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="User Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Email"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/editProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

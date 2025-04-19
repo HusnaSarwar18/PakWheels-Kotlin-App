@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Image on the left -->
+    <ImageView
+        android:id="@+id/adImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop" />
+
+    <!-- Name and model in column -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <!-- Name and Model -->
+        <TextView
+            android:id="@+id/adNameModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Honda CityX"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <!-- User's name -->
+        <TextView
+            android:id="@+id/adUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <!-- Spacer to push price to the bottom -->
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/adPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: 70000000"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

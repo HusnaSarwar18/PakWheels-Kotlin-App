@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    tools:context=".ChatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pakwheels"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Messages,Yet"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/themeblue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You'll Find All Your Messages Righ here, Get Started"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            />
+        <Button
+            android:id="@+id/start_exploring_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Start Exploring"
+        android:backgroundTint="@color/themedarkblue"
+        android:textColor="@color/white"
+        android:layout_marginTop="14dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

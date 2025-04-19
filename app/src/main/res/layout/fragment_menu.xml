@@ -1,0 +1,91 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MenuFragment">
+
+    <!-- Top section with the button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/themedarkblue"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp">
+
+        <!-- Login/Signup Button (Visible when not logged in) -->
+        <Button
+            android:id="@+id/menuloginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in / Sign up"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/dim_white"
+            android:textColor="@color/themeblue"
+            android:layout_marginTop="100dp"
+            />
+
+        <!-- Logout Button (Visible when logged in) -->
+        <Button
+            android:id="@+id/menulogoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/dim_white"
+            android:textColor="@color/themeblue"
+            android:layout_marginTop="100dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!-- Second section below the top section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <Spinner
+            android:id="@+id/personal"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+        <Spinner
+            android:id="@+id/prodcut"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+        <Spinner
+            android:id="@+id/services"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+        <Spinner
+            android:id="@+id/explore"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="140dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Need Help? Contact us"
+                android:gravity="center"
+                android:layout_above="@+id/help"
+                />
+            <TextView
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18.13.0"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

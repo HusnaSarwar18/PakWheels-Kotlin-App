@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/bottom_myads"
+        android:title="All Ads"
+        android:icon="@drawable/chat"/>
+    <item android:id="@+id/bottom_sellnow"
+        android:title=" "/>
+    <item android:id="@+id/bottom_chat"
+        android:title="My Ads"
+        android:icon="@drawable/chat"/>
+    <item android:id="@+id/bottom_menu"
+        android:title="Menu"
+        android:icon="@drawable/menu"/>
+
+</menu>

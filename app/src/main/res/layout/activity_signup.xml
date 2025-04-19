@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main"
+    android:padding="34dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to PakWheels"
+        android:textSize="24sp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pakwheels"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safely Connect with Buyers"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You can connect with thousands of buyers and quick search"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <EditText
+        android:id="@+id/nameinput"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/emailinput"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/passinput"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/themedarkblue"
+        android:text="Already Have An Account?"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
